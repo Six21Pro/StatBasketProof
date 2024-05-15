@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/court"
+    tools:context=".Pickup">
+
+    <Button
+        android:id="@+id/BigLeftBtn"
+        android:layout_width="104dp"
+        android:layout_height="254dp"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="409dp"
+        android:layout_marginBottom="82dp"
+        android:text="Score: 0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BigRightBtn"
+        android:layout_width="104dp"
+        android:layout_height="254dp"
+        android:layout_marginStart="402dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginBottom="78dp"
+        android:text="Score: 0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/HomeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="610dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="336dp"
+        android:text="HOME"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/RightSubBtn"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="506dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="177dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColorHighlight="#D62F2F"
+        android:textColorLink="#781414"
+        android:textSize="24sp"
+        app:icon="@android:drawable/ic_input_delete"
+        app:iconSize="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/LeftSubBtn"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="514dp"
+        android:layout_marginBottom="175dp"
+        app:icon="@android:drawable/ic_input_delete"
+        app:iconSize="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
